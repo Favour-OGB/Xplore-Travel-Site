@@ -387,13 +387,14 @@ form textarea:focus{
     border-color: #044e6c;
     transform: scale(1.005);
 }
+
 form .btn{
-    
-    align-self: flex-end;
-    border: none;
-    border-radius: 0;
     font-size: 1rem;
     background-color: var(--text-color);
+    border: none;
+    border-radius: 0;
+    width: 40%;
+    align-self: flex-end;
 }
 
 .footer{
@@ -402,8 +403,6 @@ form .btn{
     gap: 1rem;
     color: var(--bg-color);
     background-color: var(--text-color);
-    
-
    
 }
 .footer-box h2{
